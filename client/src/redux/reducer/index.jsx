@@ -1,5 +1,5 @@
 
-const combineReducer = (state=InitialState, action)=>{
+const combineReducer = (state, action)=>{
     return(
         {
            movies:""
