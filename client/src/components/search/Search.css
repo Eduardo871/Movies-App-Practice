@@ -1,0 +1,21 @@
+.searchContainer
+{
+    position: absolute;
+    right: 10px;
+    height: 100%;
+}
+
+.searchContainer .icon i
+{
+    color: #454044;
+}
+
+.searchContainer .icon 
+{
+    display: flex;
+    width: 40px;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+
+}

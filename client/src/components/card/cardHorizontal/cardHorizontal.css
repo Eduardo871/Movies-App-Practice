@@ -1,0 +1,35 @@
+.cardHorizontalContainer
+{
+    width:90%;
+    height: 200px;
+    display: flex;
+    position: relative;
+    border-radius: 20px;
+    flex-shrink: 0;
+    overflow: hidden;
+    scroll-snap-type: x mandatory;
+}
+.cardHorizontalContainer img 
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    z-index: 1;
+    margin-left: 10px;
+    border-radius: 20px;
+    overflow: hidden;
+    
+}
+.cardHorizontalContainer  h1
+{
+    margin: 0;
+    position: absolute;
+    z-index: 2;
+    bottom: 10px;
+    left: 10px;
+    color: #fff;
+    font-size: 20px;
+    text-align: start;
+    width: 70%;
+}

@@ -1,0 +1,7 @@
+.sliderContainer
+{
+    display: flex;
+    width: auto;
+    overflow-x: scroll;
+    padding: 15px ;
+}

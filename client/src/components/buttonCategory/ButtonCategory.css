@@ -1,0 +1,48 @@
+.buttonCateoryContainer
+{
+    width: 200px;
+    height: 88px;
+    border-radius: 15px;
+    position: relative;
+    flex-shrink: 0;
+    overflow: hidden;
+    scroll-snap-type: x mandatory;
+    box-shadow: 0px 78px 54px -46px rgba(245,19,19,0.58);
+    margin: 10px;
+    top: 0;
+}
+
+.buttonCateoryContainer img 
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.buttonCateoryContainer h1
+{
+    position:absolute;
+    top: 28%;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: 0;
+    font-size: 20px;
+    color: white;
+    z-index: 1;
+}
+.buttonCateoryContainer .color 
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(247, 65, 65, 0.671);
+    border-radius: 15px;
+    z-index: 0;
+}
