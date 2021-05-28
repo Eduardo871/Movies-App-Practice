@@ -1,0 +1,17 @@
+.cardVerticalContainer
+{
+    width: 160px;
+    height: 210px;
+    flex-shrink: 0;
+    overflow: hidden;
+    scroll-snap-type: x mandatory;
+    border-radius: 15px;
+    margin: auto;
+    margin-left:10px ;
+}
+.cardVerticalContainer img
+{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}

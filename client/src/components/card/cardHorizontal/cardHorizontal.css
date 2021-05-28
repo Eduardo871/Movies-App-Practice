@@ -1,6 +1,6 @@
 .cardHorizontalContainer
 {
-    width:90%;
+    width:100%;
     height: 200px;
     display: flex;
     position: relative;
@@ -9,6 +9,13 @@
     overflow: hidden;
     scroll-snap-type: x mandatory;
 }
+
+.cardHorizontalContainer:focus-visible
+{
+    transform: translateY(100px);
+}
+
+
 .cardHorizontalContainer img 
 {
     width: 100%;
